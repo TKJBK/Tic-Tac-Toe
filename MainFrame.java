@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Trenha804
- */
 public class MainFrame extends javax.swing.JFrame {
 
 	/**
@@ -41,10 +31,9 @@ public class MainFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+	// Don't change the editor folder bits, they're what collapses the code in NetBeans. You can probably ignore it safely. <---------------------MAX
 
-	/**
-	 * @param args the command line arguments
-	 */
+
 	public static void main(String args[]) {
 		/* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -76,6 +65,7 @@ public class MainFrame extends javax.swing.JFrame {
 		/* Create and display the form */
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
+				// This is where the code that does stuff goes.
 				new MainFrame().setVisible(true);
 			}
 		});
@@ -83,4 +73,6 @@ public class MainFrame extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     // End of variables declaration//GEN-END:variables
+
+	// MAKE SURE YOU DO ALL YOUR CODE EDITING IN NETBEANS, THIS IS JUST THE PLACE THAT WE'RE UPLOADING OUR CODE FOR OTHERS TO DOWNLOAD <--------------MAX
 }
